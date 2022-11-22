@@ -9,6 +9,8 @@
 		
 		<!-- Define las clases que seran mapeadas al configurarse la conexión con BD -->
 		<class>com.example.projectjpa.entity.Disquera</class>
+		<class>com.example.projectjpa.entity.Genero</class>
+		<class>com.example.projectjpa.entity.SubGenero</class>
 		
 		<properties>
 			<property name="javax.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver"/>
